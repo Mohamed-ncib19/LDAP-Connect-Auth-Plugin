@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../config/ldap_config.php';
 
-class LDAPAuthenticator {
+class LDAP {
     private $ldapConn;
 
     public function ldapConnect($ldapServer) {
